@@ -32,7 +32,7 @@ p {
 body {
   font-family: "Montserrat", sans-serif;
 }
-
+/*Task-1*/
 .list {
   font-weight: 400;
   font-size: 16px;
@@ -103,3 +103,36 @@ body {
   width: 100%;
  
 }
+
+/*Task-3*/
+.anonymous{
+  display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 16px;
+    border-radius: 8px;
+      padding: 24px;
+      width: 408px;
+      height: 136px;
+      background-color: #fff;
+}
+.inputet{
+  width: 360px;
+    height: 40px;
+    font-weight: 400;
+      font-size: 16px;
+      line-height: 1.5;
+        letter-spacing: 0.04em;
+      padding: 16px;
+        border-radius: 4px;
+        border: 1px solid#808080;
+}
+.first-title{
+  font-weight: 600;
+    font-size: 24px;
+    line-height: 1.33333;
+      letter-spacing: 0.04em;
+      color: #2e2f42;
+}
+
