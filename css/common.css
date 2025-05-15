@@ -85,7 +85,6 @@ body {
 .gallery {
   display: flex;
   flex-wrap: wrap;
-  padding: 100px 156px;
   margin: 0;
   justify-content: center;
   list-style: none;
@@ -134,5 +133,59 @@ body {
     line-height: 1.33333;
       letter-spacing: 0.04em;
       color: #2e2f42;
+}
+
+/*Task-4*/
+.person-form{
+  display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    background-color: #fff;
+    position: relative;
+}
+.login-form{
+  display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+padding: 24px;
+    width: 360px;
+      height: 152px;
+
+}
+.string{
+  font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+    margin: 8px;
+}
+.blok-string{
+  border: 1px solid #808080;
+    border-radius: 4px;
+    width: 360px;
+    height: 40px;
+}
+.button-log{
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    border-radius: 8px;
+      width: 84px;
+      height: 40px;
+      background-color: #4e75ff;
+      font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        color: #fff;
+        border: none;
+        margin-top: 16px;
+       margin: 24px;
+    
+        
 }
 
