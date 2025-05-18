@@ -33,7 +33,12 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 /*Task-1*/
-.list {
+
+#categories {
+  list-style: none;
+  padding: 0;
+  margin: 40px auto;
+  max-width: 400px;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -41,22 +46,14 @@ body {
 }
 
 .item {
-  display: block;
-  border-radius: 8px;
-  gap: 8px;
-  color: #2e2f42;
-}
-
-.card {
   background-color: #f6f6fe;
   padding: 24px;
   border-radius: 16px;
-  max-width: 400px;
-  margin: 40px auto;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  margin-bottom: 24px;
 }
 
-.card-title {
+.item h2 {
   margin-bottom: 16px;
   font-weight: 600;
   font-size: 24px;
@@ -65,13 +62,13 @@ body {
   color: #2e2f42;
 }
 
-.card-list {
+.item ul {
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
-.card-item {
+.item ul li {
   padding: 12px 16px;
   border: 1px solid #aaa;
   border-radius: 8px;
